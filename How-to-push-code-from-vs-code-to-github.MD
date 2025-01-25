@@ -6,6 +6,7 @@
 ```
 git --version
 ```
+![Image](https://github.com/user-attachments/assets/607d06e0-113b-4892-a497-0a38cbdf29d4)
 ## 2. Configure Git (First-Time Setup)
 * Set your name and email in Git:
 ```
@@ -49,10 +50,8 @@ git push -u origin main
 ## 8. Verify the Push
 * Go to your GitHub repository, and you should see your code!
 
-# If Error Occurs
-![Image](https://github.com/user-attachments/assets/607d06e0-113b-4892-a497-0a38cbdf29d4)
-
-![Image](https://github.com/user-attachments/assets/d0e7ca72-6f0d-4f7e-96c2-946d1bd8d6ae)
+# If Error Occurs:
+![Image](https://github.com/user-attachments/assets/32f0f29a-b3b9-4464-8c35-5226e04ac699)
 ## 1. Pull Changes from the Remote Repository
 * Run the following command in your terminal to fetch and merge the changes from the remote repository into your local branch:
 
@@ -79,3 +78,6 @@ git rebase --continue
 ```
 git push origin main
 ```
+
+
+![Image](https://github.com/user-attachments/assets/d0e7ca72-6f0d-4f7e-96c2-946d1bd8d6ae)
