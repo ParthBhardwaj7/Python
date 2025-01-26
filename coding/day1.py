@@ -159,9 +159,36 @@ for i in range(5):
     print(i)
 for i in range(1,5,3):
     print(i)
+#Python Binary Data Types
+#A binary data type in Python is a way to represent data as a series of binary digits, which are 0's and 1's
+#bytes
+# bytearray
+# memoryview
 
+# Using bytes() function to create bytes
+b1 = bytes([65, 66, 67, 68, 69])  
+print(b1)
 
+# Creating a bytearray from an iterable of integers
+value = bytearray([72, 101, 108, 108, 111])  
+print(value) 
+# using memory view
+data = bytearray(b'Hello, world!')
+view = memoryview(data)
+print(view)
+x=b'28'
+y=memoryview(x)
+print(y)
 
-
-
+#Dictionary View
+#Python dictionary is like associative arrays or hashes found in Perl and consist of key:value pairs. The pairs are separated by comma and put inside curly brackets {}
+E={1:'hello',2:'hero',3:'mujhe shakti do'}
+print(x)
+print(type(x))
+x={}
+z={23}
+print(x)
+print(y)
+print(z)
+print(E[2])
 
