@@ -35,3 +35,5 @@
 # import os
 # if file=open("day7.py","r")
 # print(file.name)
+# file=open("C:\Users\parth\OneDrive\Desktop\Coding\coding\day10.py","r")
+# print(file.read())
