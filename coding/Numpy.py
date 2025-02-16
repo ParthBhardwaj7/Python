@@ -20,3 +20,15 @@ import numpy as np
 a=np.array([12,23,43,23,23])
 print(a)
 print(np.__version__)
+#Creating 2D array
+a=np.array([[1,2,3],[23,5,26]])
+print(a)
+a=np.array([1,2,3,4,5],ndmin=2)#array have to forced to have this amount of dimension
+print(a)
+print("shape",a.shape)
+
+a=np.array([1,2,3,4,5])
+b=np.array([12,23,34,45,24])
+
+
+
