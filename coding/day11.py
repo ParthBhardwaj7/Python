@@ -20,9 +20,40 @@ for _ in range(n):
     a, b = b, a + b
 
 #2
+n = int(input("Enter the number: "))
+
+if n < 2:
+    print("Non Prime")  # 0 and 1 are not prime
+else:
+    for i in range(2, int(n ** 0.5) + 1):  # Because every non-prime number has at least one factor ≤ √n.
+        if n % i == 0:
+            print("Non Prime")
+            break
+    else:
+        print("Prime")
 
 
+#3
+n=int(input("enter the number"))
+fact=1
+for i in range(n,1,-1):
+    fact=fact*i
+print(fact)
+
+#4
+n=input("enter")
+rev=''
+for i in range(len(n)-1,-1,-1):
+    rev=rev+n[i]
+
+print(rev)
 
 
-
+#5
+n=input("enter the number")
+a=list(n)
+sum=0
+for i in range(len(a)):
+    sum=sum+int(a[i])
+print(sum)
 
